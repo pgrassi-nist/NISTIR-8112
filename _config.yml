@@ -1,5 +1,5 @@
 # Site settings
-title: NISTIR 8112 Attribute Metadata: A Proposed Schema for Evaluating Federated Attributes (Draft)
+title: NISTIR-8112 Attribute Metadata: A Propsed Schema for Evaluating Federated Attributes (Draft)
 description: "Public Draft for NIST Internal Report 8112 Attribute Metadata"
 baseurl: "/NISTIR-8112" # the subpath of your site, e.g. /blog
 url: "https://pages.nist.gov/" # the base hostname & protocol for your site
@@ -21,7 +21,6 @@ exclude:
 - README.md
 - CONTRIBUTING.md
 - LICENSE.md
-#- NISTIR-8112.md
 
 # GitHub information
 org_name: usnistgov
@@ -32,13 +31,6 @@ repo_name: NISTIR-8112
 navigation:
 - text: Home
   url: /NISTIR-8112/
-  #- text: NISTIR-8112
-#  url: /800-63-3/sp800-63-3/
-#- text: SP 800-63A
-#  url: /800-63-3/sp800-63a/
-#- text: SP 800-63B
-#  url: /800-63-3/sp800-63b/
-#- text: SP 800-63C
-#  url: /800-63-3/sp800-63c/
-
+- text: NISTIR-8112
+  
 host: 0.0.0.0
