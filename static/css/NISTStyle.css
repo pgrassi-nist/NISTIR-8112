@@ -198,6 +198,19 @@ td,th{
 		box-shadow:none !important
 	}
 
+	.nist-header {
+		display: none;
+	}
+
+	div.container {
+		padding-left:30px;
+		padding-right:30px;
+	}
+
+	.breaker{
+		page-break-before: always;
+	}
+
 	a,a:visited{
 		text-decoration:underline
 		color: purple;
@@ -246,7 +259,8 @@ td,th{
 	}
 
 	.navbar{
-		display:none
+		display:none;
+		width: 0px;
 	}
 
 	.table td,.table th{
@@ -421,7 +435,8 @@ h4,.h4{
 }
 
 h5,.h5{
-	font-size:14px
+	font-size:18px;
+	font-weight:bold
 }
 
 h6,.h6{

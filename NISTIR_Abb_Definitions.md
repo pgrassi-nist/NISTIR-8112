@@ -18,10 +18,6 @@ Access control based on attributes associated with subjects, objects, targets, i
 
 A statement asserting a property of a subject without necessarily containing authentication or other identity information, independent of format. For example, for the attribute 'birthday', a claim could be 'older than 18' or 'born in December'.
 
-#### Attribute Metadata
-
-Data providing information about the context and structure of an attribute. See metadata.
-
 #### Attribute Provider (AP)
 
 Manages and provides assertions of identity attributes to other relying and federated parties.
@@ -29,6 +25,10 @@ Manages and provides assertions of identity attributes to other relying and fede
 #### Attribute Provider Statement (APS)
 
 A document that captures the security, privacy, data protection, and attribute management practices of a given attribute provider or party acting as an attribute provider for a given set of transactions.
+
+#### Attribute Schema Metadata (ASM)
+
+Data providing information about the context and structure of an attribute. See metadata.
 
 #### Attribute Value Metadata (AVM)
 
@@ -40,7 +40,7 @@ The decision to permit or deny a subject access to resources (e.g., network, dat
 
 #### Credential Service Provider (CSP)
 
-An  entity that issues digital credentials to subjects and issues or registers authenticators for subjects' use.  A CSP may be an independent third party, or may issue credentials for its own use. A CSP may provide and verify attributes or may include attributes provided or verified by other entities.
+An  entity that issues digital credentials to subjects and issues or registers authenticators for subjects' use.  A CSP may be an independent third party, or may issue credentials for its own use. A CSP may provide and verify attributes or may assert attributes provided and verified by other entities.
 
 #### Federation
 
@@ -54,6 +54,14 @@ A CSP in a federation that manages the subject's primary authentication credenti
 
 Structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage an information resource. Metadata is often called data about information or information about information.
 
+#### Personally Identifiable Information (PII)
+
+Information that can be used to distinguish or trace an individual’s identity, either alone or when combined with other information that is linked or linkable to a specific individual. 
+
 #### Relying Party (RP)
 
 An entity that relies upon a subject’s authenticator(s) and credentials or an IDP's assertion of a subject’s identity, typically to process a transaction or to grant access to information or a system.
+
+#### Trust-time
+
+Refers to the process of establishing agreements between framework participants in order to develop metadata schema requirements consistent with community needs. 
